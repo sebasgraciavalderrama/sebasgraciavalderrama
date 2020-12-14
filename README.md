@@ -1,1 +1,1 @@
-![GitHub metrics](https://github.com/sebasgraciavalderrama/sebasgraciavalderrama/blob/master/github-metrics.svg)
+![GitHub metrics](https://metrics.lecoq.io/sebasgraciavalderrama)
