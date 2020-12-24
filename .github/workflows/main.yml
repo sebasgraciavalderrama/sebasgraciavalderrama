@@ -9,14 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # See action.yml for all options
-      - uses: lowlighter/metrics@master
+      - uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
           committer_token: ${{ secrets.GITHUB_TOKEN }}  
       - name: Topics plugin
-        uses: lowlighter/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.topics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -26,7 +26,7 @@ jobs:
           plugins_errors_fatal: yes
           
       - name: Isocalendar plugin (full year)
-        uses: lowlighter/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -37,7 +37,7 @@ jobs:
           plugins_errors_fatal: yes  
           
       - name: Most used languages
-        uses: lowlighter/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -45,10 +45,3 @@ jobs:
           base: ""
           plugin_languages: yes
           plugins_errors_fatal: yes
-          
-      - name: Habits
-        uses: lowlighter/metrics@master
-        with:
-          plugin_habits: yes
-          pugin_habits_from: 365
-          plugin_habits_days: 14  
