@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # See action.yml for all options
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@master
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -37,7 +37,7 @@ jobs:
           plugins_errors_fatal: yes  
           
       - name: Most used languages
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -47,7 +47,7 @@ jobs:
           plugins_errors_fatal: yes
           
       - name: Habits
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           plugin_habits: yes
           pugin_habits_from: 365
