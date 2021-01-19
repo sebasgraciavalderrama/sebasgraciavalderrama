@@ -656,9 +656,9 @@
                   
                     <div class="label" title="JSON (JavaScript Object Notation) allows for easy interchange of data, often between a program and a database.">json</div>
                   
-                    <div class="label" title="TensorFlow is an open source software library for numerical computation.">tensorflow</div>
-                  
                     <div class="label" title="Azure is a cloud computing service created by Microsoft.">azure</div>
+                  
+                    <div class="label" title="TensorFlow is an open source software library for numerical computation.">tensorflow</div>
                   
                     <div class="label" title="The terminal is an interface in which you can type and execute text-based commands.">terminal</div>
                   
