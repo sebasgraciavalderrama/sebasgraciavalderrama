@@ -251,6 +251,20 @@
     border-radius: 32px;
     font-size: 12px;
   }
+  .label.label-flex {
+    display: flex;
+  }
+  .label .label-right {
+    display: flex;
+    align-items: center;
+    font-size: .7rem;
+    margin-left: 6px;
+    margin-right: -10px;
+    background-color: #58A6FF10;
+    padding: 0 7px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+  }
 
 /* Habits */
   .habits {
@@ -910,6 +924,12 @@
     width: .8rem;
     height: .8rem;
   }
+  .field.contributors-category {
+    margin-left: 12px;
+  }
+  .contributors-categories img {
+    margin-right: 0;
+  }
 
 /* Introduction */
   .introduction {
@@ -1003,13 +1023,10 @@
     color: #E7BD69;
   }
   .achievement.s .title {
-    color: #FF0000;
+    color: #EB355E;
   }
   .achievement.s .gauge.info {
-    color: #FF0000;
-  }
-  .achievement.s .icon {
-    filter: sepia() saturate(100);
+    color: #EB355E;
   }
   .achievement.secret .title{
     color: #FF76CD;
@@ -1207,7 +1224,7 @@
                             <div class="label" title="A database is a structured set of data held in a computer, usually a server.">database</div>
                             <div class="label" title="Data structures are a way of organizing and storing data.">data structures</div>
                             <div class="label" title="An awesome list is a list of awesome things curated by the community.">awesome lists</div>
-                            <div class="label" title="PHP, SQL, Angular, MySQL, Azure, GitHub API, JSON, Tensorflow, Terminal, TypeScript, Ubuntu, MongoDB, Atom, GraphQL, npm, Sass, Homebrew, XML, Project management, Web Components, Vagrant">and 21 more...</div>
+                            <div class="label" title="PHP, SQL, Angular, MySQL, Azure, GitHub API, JSON, Tensorflow, Terminal, TypeScript, Ubuntu, Atom, MongoDB, GraphQL, npm, Sass, Homebrew, XML, Project management, Web Components, Vagrant">and 21 more...</div>
                         </div>
                     </section>
                 </div>
